@@ -1,0 +1,23 @@
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  /* Change the position property to fixed, and top property to 0 */
+  position:fixed;
+  top:0;
+  /* Change the z-index property to 10 */
+  z-index:10;
+}
+
+main p {
+	font-size:20px;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
